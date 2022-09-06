@@ -16,3 +16,5 @@ digits = 999
 goldenRatio = 1.6180
 
 print(round(((digits * math.log(10)) + (math.log(5)/2))/(math.log(goldenRatio))))
+
+#questa soluzione sfrutta il rapporto aureo e una formula di Newton per ricavare il numero di fibonacci in questione

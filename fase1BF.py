@@ -24,3 +24,6 @@ while (fibonacciNumber[index] <= digits) :
     fibonacciNumber[index] = fibonacciNumber[(index + 1) % 3] + fibonacciNumber[(index + 2) % 3]
 
 print(counter)
+
+#questa soluzione sfrutta in parte la memoizzazione
+#genera tutto lo spazio delle soluzioni tramite la tecnica dello Brute Force
